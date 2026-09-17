@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ASF Viagens — Surf Trips Femininas</title>
-<meta name="description" content="Roteiros de surf trips e expedições para mulheres. Satélite do app ASF.">
-<style>:root{--p:#00a8cc;--pd:#0e2439;--g:#f4d03f}*{box-sizing:border-box;margin:0}body{font-family:system-ui,sans-serif;background:#f6fbfd;color:var(--pd)}nav{background:var(--pd);padding:10px 14px;display:flex;flex-wrap:wrap;gap:7px;position:sticky;top:0}nav a{color:#fff;text-decoration:none;font-size:11px;font-weight:600;padding:5px 9px;border-radius:20px;background:rgba(255,255,255,.08)}nav a:hover{background:var(--p)}nav a.hub{background:var(--g);color:var(--pd)}header{padding:44px 20px;text-align:center;background:linear-gradient(135deg,#e8772220,#00a8cc18)}h1{font-size:28px}main{max-width:760px;margin:24px auto;padding:0 16px}.card{background:#fff;border-radius:14px;padding:18px;margin-bottom:14px;box-shadow:0 2px 10px rgba(0,0,0,.06);border-top:3px solid #e87722}.card h3{margin-bottom:6px;font-size:16px}ul{margin:8px 0 0 18px}li{margin-bottom:5px;font-size:14px}.tag{display:inline-block;font-size:11px;background:#e8772218;color:#e87722;padding:2px 8px;border-radius:10px;font-weight:600}footer{text-align:center;padding:26px;font-size:12px;color:#678}</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASF Viagens — ASF</title>
+<meta name="description" content="Roteiros de surf trips e expedições para mulheres">
+<style>
+:root{--rosa:#ff4d8d;--roxo:#7b2ff7;--areia:#fff5ec;--mar:#00c2cb}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',system-ui,sans-serif}
+body{background:linear-gradient(160deg,#fff5ec,#ffe3f1 60%,#e0f7fa);min-height:100vh;color:#333}
+header{background:linear-gradient(90deg,var(--rosa),var(--roxo));color:#fff;padding:2rem 1rem;text-align:center}
+header h1{font-size:2rem} header p{opacity:.9;margin-top:.4rem}
+nav{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;padding:.8rem;background:#fff;box-shadow:0 2px 8px #0001;position:sticky;top:0;z-index:10}
+nav a{background:var(--areia);border:1px solid #ffd3e6;color:#c2185b;padding:.3rem .7rem;border-radius:20px;font-size:.78rem;text-decoration:none}
+nav a:hover{background:var(--rosa);color:#fff}
+main{max-width:760px;margin:1.5rem auto;padding:0 1rem}
+.card{background:#fff;border-radius:16px;padding:1.4rem;box-shadow:0 4px 16px #7b2ff720;margin-bottom:1.2rem}
+.card h2{color:var(--roxo);margin-bottom:.6rem;font-size:1.2rem}
+button{background:linear-gradient(90deg,var(--rosa),var(--roxo));color:#fff;border:none;padding:.6rem 1.2rem;border-radius:24px;font-size:1rem;cursor:pointer}
+button:hover{opacity:.85}
+input,select,textarea{padding:.5rem;border:1px solid #ddd;border-radius:10px;width:100%;margin:.3rem 0;font-size:1rem}
+.xp{position:fixed;bottom:1rem;right:1rem;background:#fff;border:2px solid var(--rosa);border-radius:24px;padding:.4rem 1rem;font-weight:bold;color:var(--roxo);box-shadow:0 4px 12px #0002}
+footer{text-align:center;padding:2rem;font-size:.8rem;color:#888}
+</style>
 </head>
 <body>
-<nav>
-<a class="hub" href="https://acarolmourad-commits.github.io/asf-app/">🏄‍♀️ ASF App</a>
-<a href="https://acarolmourad-commits.github.io/asf-previsao/">🌊 Previsão</a>
-<a href="https://acarolmourad-commits.github.io/asf-praias/">🏖️ Praias</a>
-<a href="https://acarolmourad-commits.github.io/asf-treino/">💪 Treino</a>
-<a href="https://acarolmourad-commits.github.io/asf-eventos/">📅 Eventos</a>
-<a href="https://acarolmourad-commits.github.io/asf-glossario/">📖 Glossário</a>
-<a href="https://acarolmourad-commits.github.io/asf-comunidade/">💜 Comunidade</a>
-<a href="https://acarolmourad-commits.github.io/asf-seguranca/">🛟 Segurança</a>
-<a href="https://acarolmourad-commits.github.io/asf-quiz/">🧠 Quiz</a>
-<a href="https://acarolmourad-commits.github.io/asf-equipamento/">🏄 Equipamento</a>
-<a href="https://acarolmourad-commits.github.io/asf-nutricao/">🥑 Nutrição</a>
-<a href="https://acarolmourad-commits.github.io/asf-historia/">📜 História</a>
-<a href="https://acarolmourad-commits.github.io/asf-bemestar/">🧘 Bem-estar</a>
-<a href="https://acarolmourad-commits.github.io/asf-respira/">🫁 Respira</a>
-<a href="https://acarolmourad-commits.github.io/asf-diario/">📓 Diário</a>
-<a href="https://acarolmourad-commits.github.io/asf-volume/">📐 Volume</a>
-</nav>
-<header><h1>✈️ ASF Viagens</h1><p>Surf trips e expedições planejadas por e para mulheres</p></header>
+<header><h1>✈️ ASF Viagens</h1><p>Roteiros de surf trips e expedições para mulheres</p></header>
+<nav><a href="https://acarolmourad-commits.github.io/asf-app/">🏄‍♀️ ASF App</a>
+<a href="https://acarolmourad-commits.github.io/asf-praias/">Praias</a>
+<a href="https://acarolmourad-commits.github.io/asf-previsao/">Previsao</a>
+<a href="https://acarolmourad-commits.github.io/asf-treino/">Treino</a>
+<a href="https://acarolmourad-commits.github.io/asf-eventos/">Eventos</a>
+<a href="https://acarolmourad-commits.github.io/asf-glossario/">Glossario</a>
+<a href="https://acarolmourad-commits.github.io/asf-seguranca/">Seguranca</a>
+<a href="https://acarolmourad-commits.github.io/asf-comunidade/">Comunidade</a>
+<a href="https://acarolmourad-commits.github.io/asf-equipamento/">Equipamento</a>
+<a href="https://acarolmourad-commits.github.io/asf-quiz/">Quiz</a>
+<a href="https://acarolmourad-commits.github.io/asf-nutricao/">Nutricao</a>
+<a href="https://acarolmourad-commits.github.io/asf-historia/">Historia</a>
+<a href="https://acarolmourad-commits.github.io/asf-bemestar/">Bemestar</a>
+<a href="https://acarolmourad-commits.github.io/asf-diario/">Diario</a>
+<a href="https://acarolmourad-commits.github.io/asf-eco/">Eco</a>
+<a href="https://acarolmourad-commits.github.io/asf-kids/">Kids</a>
+<a href="https://acarolmourad-commits.github.io/asf-mental/">Mental</a>
+<a href="https://acarolmourad-commits.github.io/asf-ranking/">Ranking</a>
+<a href="https://acarolmourad-commits.github.io/asf-respira/">Respira</a>
+<a href="https://acarolmourad-commits.github.io/asf-sos/">Sos</a>
+<a href="https://acarolmourad-commits.github.io/asf-volume/">Volume</a>
+<a href="https://acarolmourad-commits.github.io/asf-yoga/">Yoga</a></nav>
 <main>
-<div class="card"><h3>🌴 Roteiros Brasil <span class="tag">top 3</span></h3><ul><li><strong>Guarda do Embaú (SC)</strong> — ondas perfeitas e vila acolhedora.</li><li><strong>Itacaré (BA)</strong> — água quente o ano todo, ideal para evoluir.</li><li><strong>Ubatuba (SP)</strong> — perto de casa, 100+ praias para todos os níveis.</li></ul></div>
-<div class="card"><h3>📝 Checklist da surf trip</h3><ul><li>Leash e cera extras, kit primeiros socorros, protetor mineral.</li><li>Verifique a previsão no <a href="https://acarolmourad-commits.github.io/asf-previsao/">ASF Previsão</a> antes de sair.</li><li>Registre spots, condições e dicas num diário de viagens para futuras expedições!</li></ul></div>
-<div class="card"><h3>👭 Viaje com a comunidade</h3><p>As expedições em grupo da <a href="https://acarolmourad-commits.github.io/asf-comunidade/">ASF Comunidade</a> dividem custos e aumentam a segurança. Confira as datas no <a href="https://acarolmourad-commits.github.io/asf-eventos/">ASF Eventos</a>.</p></div>
+<div class="card"><h2>🗺️ Planejador de Surf Trip</h2>
+<label>Destino dos sonhos</label><select id="d" onchange="info()"><option value="">Escolha...</option><option>Ubatuba, SP</option><option>Florianópolis, SC</option><option>Saquarema, RJ</option><option>Pipa, RN</option><option>Mentawai, Indonésia</option></select>
+<div id="i"></div></div>
+<div class="card"><h2>🎒 Checklist da Viajante</h2><div id="ck"></div></div>
+<div class="card"><p>Confira a previsão do destino no <a href='https://acarolmourad-commits.github.io/asf-previsao/'>ASF Previsão</a> e registre a trip no <a href='https://acarolmourad-commits.github.io/asf-diario/'>ASF Diário</a>.</p></div>
+<div class="card"><h2>🌐 Ecossistema ASF</h2><p>Este app faz parte da constelação ASF — Associação de Surf Feminino. Ganhe XP aqui e veja seu progresso no <a href="https://acarolmourad-commits.github.io/asf-ranking/">ASF Ranking</a>. App principal: <a href="https://acarolmourad-commits.github.io/asf-app/">ASF App</a>.</p></div>
 </main>
-<footer>Parte da constelação ASF • <a href="https://acarolmourad-commits.github.io/asf-app/">Voltar ao app principal</a></footer>
+<div class="xp">⭐ XP: <span id="xp">0</span></div>
+<footer>ASF — Associação de Surf Feminino · Feito com 🌊 e 💜 · <a href="https://acarolmourad-commits.github.io/asf-app/">asf-app</a></footer>
+<script>
+const XP=()=>parseInt(localStorage.getItem('asf_xp')||'0');
+function addXP(n){localStorage.setItem('asf_xp',XP()+n);document.getElementById('xp').textContent=XP();}
+document.getElementById('xp').textContent=XP();
+const D={'Ubatuba, SP':'🌊 Berço da ASF! Picos pra todos os níveis. Melhor: abril-outubro. Veja no ASF Praias.','Florianópolis, SC':'🏝️ 42 praias! Joaquina e Mole pro nível avançado, Barra da Lagoa pra iniciantes.','Saquarema, RJ':'🏆 Capital brasileira do surf, palco de etapa do circuito mundial.','Pipa, RN':'🐬 Ondas mornas o ano todo e golfinhos no lineup.','Mentawai, Indonésia':'💎 O paraíso. Vá com grupo de mulheres e guia local.'};window.info=()=>{const v=document.getElementById('d').value;document.getElementById('i').innerHTML=v?`<p style="margin-top:.5rem">${D[v]}</p>`:'';if(v)addXP(5);};const C=['Prancha + capa','Leash reserva','Parafina','Protetor solar','Primeiros socorros','Documentos','Biquíni/lycra extra','Saco estanque'];const st=JSON.parse(localStorage.getItem('asf_trip')||'{}');document.getElementById('ck').innerHTML=C.map(x=>`<label style="display:block;margin:.2rem 0"><input type="checkbox" style="width:auto" ${st[x]?'checked':''} onchange="st['${x}']=this.checked;localStorage.setItem('asf_trip',JSON.stringify(st))"> ${x}</label>`).join('');
+</script>
 </body>
 </html>
